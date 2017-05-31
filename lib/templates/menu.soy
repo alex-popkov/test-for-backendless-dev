@@ -1,0 +1,18 @@
+{namespace test.idk.templates.menu}
+
+/**
+ * @param key
+ * @param value
+ */
+{template .model}
+    <a
+        href="void:0"
+        class="{css menu-link}"
+        data-class="{$key.active}:{css active}"
+        data-action>
+        <span
+            data-model="{$key.caption}">
+            {$value.caption}
+        </span>
+    </a>
+{/template}

@@ -1,0 +1,38 @@
+{namespace test.idk.templates.layout}
+
+/**
+ * Layout model template.
+ * @param key
+ * @param value
+ */
+{template .model}
+    <div
+        class="{css layout} {css mdl-layout} {css mdl-js-layout} {css mdl-layout--fixed-header}"
+        data-action>
+
+        // Header
+        <header
+            class="{css layout--header} {css mdl-layout__header}">
+            <div
+                class="{css mdl-layout__header-row}">
+                <div
+                    data-model="{$key.title}"
+                    class="{css layout--header-title}">
+                    {$value.title}
+                </div>
+                <div
+                    class="{css layout--menu-wrapper}"
+                    data-model="{$key.menu}"
+                    data-view="menu"
+                    data-controller="menu">
+                </div>
+            </div>
+        </header>
+
+        // View
+        <div
+            id="{css view-wrapper}"
+            class="{css view-wrapper}">
+        </div>
+    </div>
+{/template}

@@ -1,0 +1,21 @@
+{
+	"name": "test.idk",
+	"version": "20170531.0.0",
+	"description": "test job based on idk framework",
+	"author": {
+		"name": "Popkov Alexander",
+		"email": "popkov.aleksander@gmail.com"
+	},
+	"license": "Apache-2.0",
+    "homepage": "http://www.example.com",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/author/test.idk.git"
+	},
+	"dependencies": {
+
+	    "imazzine-developer-kit": "",
+		"imazzine-developer-lib": "",
+		"zz.styles": ""
+	}
+}

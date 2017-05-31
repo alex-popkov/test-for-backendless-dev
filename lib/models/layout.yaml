@@ -1,0 +1,18 @@
+NAMESPACE: 'test.idk.models.Layout'
+
+REQUIRE:
+    - 'test.idk.models.Menu'
+
+FIELDS:
+
+  title:
+
+    index: 0
+    type: zz.models.enums.FieldType.STRING
+    required: false
+
+  menu:
+
+    index: 1
+    type: test.idk.models.Menu
+    required: false

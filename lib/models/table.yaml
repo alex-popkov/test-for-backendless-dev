@@ -1,0 +1,9 @@
+NAMESPACE: 'test.idk.models.Table'
+
+FIELDS:
+
+  title:
+
+    index: 3
+    type: zz.models.enums.FieldType.STRING
+    required: false
